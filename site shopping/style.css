@@ -1,0 +1,79 @@
+#logo-shop {
+  position: relative;
+  width: 50%;
+  left: 400px;
+}
+
+#first-bloc {
+  display: flex;
+  position: relative;
+  background-color: #c9ccd5;
+  top: 200px;
+  height: 500px;
+  align-items: center;
+  justify-content: space-around;
+}
+#second-bloc {
+  display: flex;
+  position: relative;
+  background-color: #fcdec0;
+  top: 200px;
+  height: 500px;
+  align-items: center;
+  justify-content: space-around;
+}
+#welcome {
+  position: relative;
+  top: 90px;
+  left: 530px;
+  color: black;
+}
+.btns {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff7ae;
+}
+.card {
+  border-radius: 10px;
+  overflow: hidden;
+}
+.card h1 {
+  text-align: center;
+}
+.plus {
+  background-color: transparent;
+  border: transparent;
+  font-size: 30px;
+}
+.minus {
+  background-color: transparent;
+  border: transparent;
+  font-size: 50px;
+}
+.remove {
+  background-color: transparent;
+  border: transparent;
+  font-size: 50px;
+}
+#total {
+  width: 200px;
+  height: 100px;
+  background: rgba(0, 0, 0, 0.411);
+  position: fixed;
+  z-index: 100000000;
+  color: #fff;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+}
+#kridi {
+  position: relative;
+  color: black;
+  top: 150px;
+  left: 570px;
+}
